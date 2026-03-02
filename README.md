@@ -1,87 +1,113 @@
 Procrastination Detector
-📌 Project Overview
+Introduction
 
-Procrastination Detector ek machine learning based system hai jo user ke behavior aur activity patterns ko analyze karke ye detect karta hai ki user productive kaam kar raha hai ya procrastinate kar raha hai.
-Iska main goal productivity improve karna aur distraction patterns ko identify karna hai.
+Procrastination Detector ek machine learning based project hai jo user ke work patterns ko analyze karke ye identify karta hai ki user productive activities kar raha hai ya procrastination me involved hai.
+Project ka focus behavioral data ke basis par procrastination detect karna hai, na ki direct monitoring par.
 
-🎯 Objectives
+Problem Statement
 
-User ke task completion behavior ka analysis karna
+Aaj ke digital environment me users easily distract ho jaate hain, jiske wajah se productivity kam ho jaati hai.
+Is project ka objective ek aisa system develop karna hai jo task-related activity data ka use karke procrastination behavior ko detect kar sake.
 
-Procrastination patterns identify karna
+Project Objectives
 
-Productive vs non-productive time ko classify karna
+User activity data ka analysis karna
 
-Users ko self-improvement ke liye feedback dena
+Productive aur non-productive behavior ko classify karna
 
-🛠️ Technologies Used
+Procrastination ke patterns identify karna
 
-Programming Language: Python
+Decision-making ke liye analytical output generate karna
 
-Libraries:
+Tools & Technologies
 
-NumPy
+Language: Python
 
-Pandas
+Libraries: Pandas, NumPy, Scikit-learn
 
-Scikit-learn
+Visualization: Matplotlib
 
-Matplotlib / Seaborn
+Environment: Jupyter Notebook
 
-IDE: Jupyter Notebook / VS Code
+Version Control: Git
 
-Version Control: Git & GitHub
+Dataset Details
 
-📂 Dataset Description
+Dataset manually created / simulated hai aur real-life work behavior ko represent karta hai.
 
-Dataset me following features shamil hain:
+Features:
 
-Task start time
+Time spent on task
 
-Task end time
+Idle time
 
-Break duration
+Number of breaks
 
-App/website usage time
+Task completion ratio
 
-Task completion status
+Target Variable:
 
-Labels:
+Productive
 
-0 → Productive
+Procrastination
 
-1 → Procrastination
+System Workflow
 
-⚙️ Methodology
+Data collection
 
-Data Collection
+Data cleaning & preprocessing
 
-User activity logs / simulated datasets
+Feature extraction
 
-Data Preprocessing
+Model training
 
-Missing values handling
+Prediction & result analysis
 
-Normalization & encoding
-
-Feature Selection
-
-Time spent, idle time, frequency of breaks
-
-Model Training
+Machine Learning Models Used
 
 Logistic Regression
 
-Decision Tree
+Decision Tree Classifier
 
-Random Forest
+Best performing model ko final prediction ke liye use kiya gaya hai.
 
-Model Evaluation
+Execution Steps
 
-Accuracy
+Project folder ko open karein
 
-Precision
+Required libraries install karein
 
-Recall
+Notebook / Python file run karein
 
-F1-Score
+Dataset input dene par model output generate karega
+
+Output
+
+System user behavior ko analyze karke ye predict karta hai:
+
+User productive hai
+
+Ya procrastination pattern follow kar raha hai
+
+Limitations
+
+Dataset limited hai
+
+Real-time tracking include nahi hai
+
+Prediction historical data par based hai
+
+Future Enhancements
+
+Real-time activity tracking
+
+Large-scale dataset integration
+
+Advanced ML / Deep Learning models
+
+Productivity recommendation system
+
+Conclusion
+
+Procrastination Detector project machine learning ka use karke user productivity behavior ko analyze karta hai. Ye project productivity analysis aur behavioral study ke liye ek basic framework provide karta hai.
+
